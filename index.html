@@ -1,0 +1,98 @@
+<span class="fuckyou">Try combining&nbsp;<u id="analog" style="color:#51c4ff">Cardboard</u> with <u id="digital" style="color:#51ffa9">Bezel AR / A-frame</u> for a new idea.</span><br>
+
+<script>
+  function pickOne(list) {
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+    return list[getRandomInt(list.length)];
+}
+
+const digitals = [
+    "Illustrator",
+    "Photoshop",
+    "After Effects",
+    "Morphology - AE or PS",
+    "Figma",
+    "Augmented Reality",
+    "QR Code / Spotify Codes / bar codes",
+    "Aero",
+    "Artivive",
+    "Bezel AR / A-frame",
+    "P5.js",
+    "PSD Mockups",
+    "Adobe Capture",
+    "Blender",
+    "C4D",
+    "AI tools (MidJourney, Adobe Firefly, etc.)",
+    "open AI",
+    "ChatGPT",
+    "open data sets",
+    "Photography → DSLR",
+    "Audio editing",
+    "Video editing",
+    "Phone photography",
+    "iPad photography",
+    "Photogrammetry",
+    "LiDar scanning",
+    "Apple pencil",
+    "Scanning",
+    "Scanner distortion",
+    "Touchdesigner",
+    "VVVV",
+    "projection mapping",
+    "generative type",
+    "MIDI",
+    "Webcam",
+    "Microphone",
+    "websites",
+    "Apps",
+    "Carplay / Android Auto",
+    "VR Headset",
+    "Humane AI Pin",
+    "NLP",
+    "Voice assistants",
+    "Raspberry pi",
+    "Arduino",
+    "Sensors: light, sound, motion, temp",
+    "Parametric Design"
+];
+
+const analogs = [
+    "Book making",
+    "Sketching",
+    "Different pens/pencils",
+    "Compass",
+    "Stencil",
+    "Spray paint",
+    "Hand paint",
+    "Wood shop (saws, etc.)",
+    "Laser cutter",
+    "3d Printing",
+    "Kongsberg",
+    "Paper crafting",
+    "Folding",
+    "Printing - laser/inkjet",
+    "Cardboard",
+    "Xacto knife",
+    "Markers",
+    "Felt pens",
+    "Pencils",
+    "Collage",
+    "Hand-distressed",
+    "Tearing",
+    "Risograph and riso-simulation with 2 ink printing processes",
+    "Installation / exhibition design",
+    "Architecture / mediatecture / scale / transmedia",
+    "model-making with foam core and museum board"
+];
+
+
+(function () {
+    const digital = pickOne(digitals);
+    const analog = pickOne(analogs);
+
+    document.getElementById("digital").innerHTML = digital;
+    document.getElementById("analog").innerHTML = analog;
+})();
+</script>
