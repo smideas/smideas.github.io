@@ -1,98 +1,145 @@
-<span class="fuckyou">Try combining&nbsp;<u id="analog" style="color:#51c4ff">Cardboard</u> with <u id="digital" style="color:#51ffa9">Bezel AR / A-frame</u> for a new idea.</span><br>
+<!DOCTYPE html>
+<html class="wf-initial-load">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cargo</title>
+        <meta name="robots" content="noindex">
+        <style>
+            .content {
+                font-size: 2.5rem;
+                font-weight: 500;
+                color: #000000;
+                font-family: "Helvetica";
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: 0em;
+                display: block;
+                position: relative;
+            }
+            body {
+                width: 80%;
+                height: 80%;
+                
+                position: absolute;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                
+                margin: auto;
+            }
 
-<script>
-  function pickOne(list) {
-    function getRandomInt(max) {
-        return Math.floor(Math.random() * max);
-    }
-    return list[getRandomInt(list.length)];
-}
+            @media (max-width: 858px) {
+                .content {
+                    font-size: 1rem;
+                }
+                body {
+                    width: 90%;
+                    height: 50%;
+                }
+            }
+        </style>            
+    </head>
+    <body>
+        <span class="content">Try combining&nbsp;<u id="analog" style="color:#51c4ff">Kongsberg</u> with <u id="digital" style="color:#51ffa9">Microphone</u> for a new idea.</span><br>
 
-const digitals = [
-    "Illustrator",
-    "Photoshop",
-    "After Effects",
-    "Morphology - AE or PS",
-    "Figma",
-    "Augmented Reality",
-    "QR Code / Spotify Codes / bar codes",
-    "Aero",
-    "Artivive",
-    "Bezel AR / A-frame",
-    "P5.js",
-    "PSD Mockups",
-    "Adobe Capture",
-    "Blender",
-    "C4D",
-    "AI tools (MidJourney, Adobe Firefly, etc.)",
-    "open AI",
-    "ChatGPT",
-    "open data sets",
-    "Photography → DSLR",
-    "Audio editing",
-    "Video editing",
-    "Phone photography",
-    "iPad photography",
-    "Photogrammetry",
-    "LiDar scanning",
-    "Apple pencil",
-    "Scanning",
-    "Scanner distortion",
-    "Touchdesigner",
-    "VVVV",
-    "projection mapping",
-    "generative type",
-    "MIDI",
-    "Webcam",
-    "Microphone",
-    "websites",
-    "Apps",
-    "Carplay / Android Auto",
-    "VR Headset",
-    "Humane AI Pin",
-    "NLP",
-    "Voice assistants",
-    "Raspberry pi",
-    "Arduino",
-    "Sensors: light, sound, motion, temp",
-    "Parametric Design"
-];
+        <script type="text/javascript">
+            function pickOne(list) {
+                function getRandomInt(max) {
+                    return Math.floor(Math.random() * max);
+                }
+                return list[getRandomInt(list.length)];
+            }
 
-const analogs = [
-    "Book making",
-    "Sketching",
-    "Different pens/pencils",
-    "Compass",
-    "Stencil",
-    "Spray paint",
-    "Hand paint",
-    "Wood shop (saws, etc.)",
-    "Laser cutter",
-    "3d Printing",
-    "Kongsberg",
-    "Paper crafting",
-    "Folding",
-    "Printing - laser/inkjet",
-    "Cardboard",
-    "Xacto knife",
-    "Markers",
-    "Felt pens",
-    "Pencils",
-    "Collage",
-    "Hand-distressed",
-    "Tearing",
-    "Risograph and riso-simulation with 2 ink printing processes",
-    "Installation / exhibition design",
-    "Architecture / mediatecture / scale / transmedia",
-    "model-making with foam core and museum board"
-];
+            const digitals = [
+               "Illustrator",
+               "Photoshop",
+               "After Effects",
+               "Morphology - AE or PS",
+               "Figma",
+               "Augmented Reality",
+               "QR Code / Spotify Codes / bar codes",
+               "Aero",
+               "Artivive",
+               "Bezel AR / A-frame",
+               "P5.js",
+               "PSD Mockups",
+               "Adobe Capture",
+               "Blender",
+               "C4D",
+               "AI tools (MidJourney, Adobe Firefly, etc.)",
+               "open AI",
+               "ChatGPT",
+               "open data sets",
+               "Photography → DSLR",
+               "Audio editing",
+               "Video editing",
+               "Phone photography",
+               "iPad photography",
+               "Photogrammetry",
+               "LiDar scanning",
+               "Apple pencil",
+               "Scanning",
+               "Scanner distortion",
+               "Touchdesigner",
+               "VVVV",
+               "projection mapping",
+               "generative type",
+               "MIDI",
+               "Webcam",
+               "Microphone",
+               "websites",
+               "Apps",
+               "Carplay / Android Auto",
+               "VR Headset",
+               "Humane AI Pin",
+               "NLP",
+               "Voice assistants",
+               "Raspberry pi",
+               "Arduino",
+               "Sensors: light, sound, motion, temp",
+               "Parametric Design"
+            ];
+
+            const analogs = [
+               "Book making",
+               "Sketching",
+               "Different pens/pencils",
+               "Compass",
+               "Stencil",
+               "Spray paint",
+               "Hand paint",
+               "Wood shop (saws, etc.)",
+               "Laser cutter",
+               "3d Printing",
+               "Kongsberg",
+               "Paper crafting",
+               "Folding",
+               "Printing - laser/inkjet",
+               "Cardboard",
+               "Xacto knife",
+               "Markers",
+               "Felt pens",
+               "Pencils",
+               "Collage",
+               "Hand-distressed",
+               "Tearing",
+               "Risograph and riso-simulation with 2 ink printing processes",
+               "Installation / exhibition design",
+               "Architecture / mediatecture / scale / transmedia",
+               "model-making with foam core and museum board"
+            ];
 
 
-(function () {
-    const digital = pickOne(digitals);
-    const analog = pickOne(analogs);
+            (function () {
+               const digital = pickOne(digitals);
+               const analog = pickOne(analogs);
 
-    document.getElementById("digital").innerHTML = digital;
-    document.getElementById("analog").innerHTML = analog;
-})();
-</script>
+               document.getElementById("digital").innerHTML = digital;
+               document.getElementById("analog").innerHTML = analog;
+            })();
+        </script>
+    </body>
+
+</html>
